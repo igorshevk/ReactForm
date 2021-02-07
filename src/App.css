@@ -1,0 +1,37 @@
+.ant-layout {
+    background: none !important;
+}
+
+.row {
+    margin: 20px 20px !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    border-color: red !important;
+    background-color: red !important;
+}
+.ant-radio-checked .ant-radio-inner {
+    border-color: red !important;
+    background-color: white !important;
+}
+.ant-radio-checked .ant-radio-inner:after {
+    background-color: red !important;
+    border-color:white !important;
+}
+.ant-radio:hover .ant-radio-inner {
+    border-color: red !important;
+}
+
+.term .ant-checkbox .ant-checkbox-inner {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.ant-checkbox .ant-checkbox-inner {
+    border-color: lightgrey !important;
+  }
+
+.term .ant-checkbox-inner::after {
+    width: 10px !important;
+    height: 23.142857px !important;
+}
